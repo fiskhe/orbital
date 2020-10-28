@@ -1,0 +1,35 @@
+ORBITAL TODO LIST:
+
+The animation can be slightly glitchy when the key is pressed for a prolonged period of time.
+ - actionanimation function needs to have the n.deg be updated as the step in the jquery animation increments.
+
+When holding the left key, and at the same time trying to change direction by pressing down the right key, the ring does not rotate as should. Instead, it just stops (also the same in the other direction). 
+- Need to put in some code to detect this stuff in the action function.
+
+- Need to put in the upgrades of the layers 
+- also properly put in the suggestions for upgrades
+
+- Graphics 
+	- proper planet
+	- proper meteors
+	- proper protector planet things (satellites??)
+
+	Animations:
+	- death animation for meteors (splodey splode!)
+	- death animations for planet things (satellites??)
+	- death animation for the planet itself!!
+
+- Mechanics
+	- need the actual things that happen when it's game over
+	- put in cool little helper medics for entities for which health is low
+	- A way to pause the game
+		- this means no timeouts or intervals. (You can't resume these after you stop them)
+		- Everything that has to do with meteors and stuff must be set to do with dates
+			- I mean the javascript date object
+
+- General
+	- Some sort of guide/tutorial for the game
+
+- SFX
+
+

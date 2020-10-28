@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+
+	<head>
+		<link href = 'style.css' rel = 'stylesheet'></style>
+		<link href = 'css\pause.css' rel = 'stylesheet'></style>
+		<script src = 'js\jquery-1.11.3.js' type="text/javascript"></script>
+		<script src = 'js\script.js' type="text/javascript"></script>
+	</head>
+
+	<body>
+		<div id = 'blockScreen'>
+			<div id = 'pause'>PAUSED</div>
+			<div id = 'wayToUnpause'>PRESS P TO UNPAUSE</div>
+		</div>
+		<div id = 'healthWrapper'>
+			<div id = 'planetHealthLabel'>HEALTH</div>
+			<div id = 'planetHealthWrapper'>
+				<div id = 'planetHealth'></div>
+			</div>
+		</div>
+
+		<div id = 'planet'></div>
+		<div id = 'layer1' class = 'layer'>
+			<div id = 'node1' class = 'node'></div>
+		</div>
+		<div id = 'layer2' class = 'layer'>
+			<div id = 'node2' class = 'node'></div>
+		</div>
+		<div id = 'layer3' class = 'layer'>
+			<div id = 'node3' class = 'node'></div>
+		</div>
+		
+		<p id = 'score'>0.00</p>
+		<p id = 'curry'>0.00</p>
+
+		<div id = 'nodeHealthWrapper'>
+			<div class = 'nodeHealthLabel'>STATION <span class = 'red'>1</span> HEALTH</div>
+			<div class = 'healthWrapper'>
+				<div class = 'nodeHealth'></div>
+			</div>		
+
+			<div class = 'nodeHealthLabel'>STATION <span class = 'red'>2</span> HEALTH</div>
+			<div class = 'healthWrapper'>
+				<div class = 'nodeHealth'></div>
+			</div>	
+
+			<div class = 'nodeHealthLabel'>STATION <span class = 'red'>3</span> HEALTH</div>
+			<div class = 'healthWrapper'>
+				<div class = 'nodeHealth'></div>
+			</div>	
+		</div>
+		
+	</body>
+</html>

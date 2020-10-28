@@ -1,0 +1,150 @@
+body {
+	background-color: #03101a;
+	/*background-color: black;*/
+	overflow: hidden;
+	margin: 0;
+}
+
+#planetHealthLabel {
+	font-size: 2em;
+	font-family: monospace;	
+	text-align: center;
+	color: orange;
+	margin-bottom: 0;
+}
+
+#planetHealthWrapper {
+	width: 70%;
+	height: 5px;
+	background-color: orange;
+	margin: 10px auto 0 auto;
+}
+
+#planetHealth {
+	width: 100%;
+	height: 100%;
+	background-color: #00d0ff;
+	transition: 0.2s linear;
+}
+
+#planet {
+	height: 80px;
+	width: 80px;
+	position: absolute;
+	background-color: #00d0ff;
+	margin-left: 50%;
+	left: -40px;
+	top: 50%;
+	margin-top: -40px;
+	border-radius: 40px;
+}
+
+#node1 {
+	left: 70px;
+}
+
+#node2 {
+	left: 110px;
+}
+
+#node3 {
+	left: 150px;
+}
+
+.node {
+	top: -11px;
+	height: 20px;
+	width: 20px;
+	/*border-radius: 10px;*/
+	background-color: #6ee9ff;
+	position: relative;
+}
+
+/*There is an extra 2px added onto border-radius and left because the border is 2px*/
+#layer1 {
+	border-radius: 82px;
+	height: 160px;
+	width: 160px;
+	left: -82px;
+	margin-top: -80px;
+}
+
+#layer2 {
+	border-radius: 122px;
+	height: 240px;
+	width: 240px;
+	left: -122px;
+	margin-top: -120px;
+}
+
+#layer3 {
+	border-radius: 162px;
+	height: 320px;
+	width: 320px;
+	left: -162px;
+	margin-top: -160px;
+}
+
+.layer {	
+	position: absolute;
+	top: 50%;
+	margin-left: 50%;
+	border-style: solid;
+	border-color: white;
+	border-width: 2px;
+/*	-ms-transform: rotate(45deg); 
+    -webkit-transform: rotate(45deg); 
+    transform: rotate(45deg);*/
+    /*transition: 1s linear;*/
+}
+
+#score {
+	position: absolute;
+	float: right;
+	font-size: 2em;
+	font-family: Arial;
+	margin-top: 0;
+	margin-bottom: 0;	
+	color: white;
+}
+
+#curry {
+	color: orange;
+	font-family: Arial;
+	float: right;
+	font-size: 2em;
+	position: relative;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#nodeHealthWrapper {
+	position: absolute;
+	margin-top: -85px;
+	margin-left: 10px;
+	top: 100vh;
+	float: right;
+}
+
+.healthWrapper {
+	width: 200px;
+	height: 5px;
+	background-color: white;
+	margin-bottom: 5px;
+}
+
+.nodeHealth {
+	width: 100%;
+	height: 100%;
+	background-color: orange;
+	transition: 0.2s linear;
+}
+
+.nodeHealthLabel {
+	font-family: monospace;
+	color: white;
+}
+
+.red {
+	color: red;
+}

@@ -1,0 +1,137 @@
+body {
+	background-color: #03101a;
+}
+
+#header {
+	color: orange;
+	text-align: center;
+	font-family: monospace;
+	font-size: 4em;
+	margin-top: 50%;
+	margin: 0 0 0 50px;
+}
+
+.btn {
+	background-color: #00d0ff;
+	height: 60px;
+	width: 400px;
+	color: white;
+	font-size: 3em;
+	text-align: center;
+	font-family: monospace;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 20px;
+}
+
+#startBtn {
+	height: 90px;
+	width: 500px; 
+	color: orange;
+	font-size: 7em;
+	/*letter-spacing: 30px;*/
+}
+
+#elemWrapper {
+	top: 50%;
+}
+
+#planet {
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	/*position: relative;*/
+	background-color: #00d0ff;
+	/*background-color: white;*/
+	/*margin-right: auto;*/
+	margin-left: 50%;
+	left: -100px;
+	/*top: 50%;*/
+	margin-top: -100px;
+	border-radius: 100px;
+}
+
+/*Left is (width of the layer)/2 + (border of layer) - (width of node)/2   */
+/*Top is -(width of node)/2   */
+#node1 {
+	/*left: 180px;*/
+	color: orange;
+	height: 70px;
+	width: 300px;
+}
+
+#node2 {
+	/*left: 280px;*/
+}
+
+#node3 {
+	/*left: 380px;*/
+}
+
+.node {
+	/*height: 50px;*/
+	height: 60px;
+	width: 260px;
+	margin-left: auto;
+	margin-right: auto;
+	top: -25px;
+	border-radius: 10px;
+	background-color: #6ee9ff;
+	/*background-color: white;*/
+	position: relative;
+	-ms-transform: rotate(-180deg); 
+    -webkit-transform: rotate(-180deg); 
+    transform: rotate(-180deg);
+	transition: 1/*s*/ linear;
+	color: white;
+	font-size: 4em;
+	text-align: center;
+	font-family: monospace;
+}
+
+#layer1 {
+	border-radius: 200px;
+	height: 400px;
+	width: 400px;
+	left: -200px;
+	margin-top: -200px;
+}
+
+#layer2 {
+	border-radius: 300px;
+	height: 600px;
+	width: 600px;
+	left: -300px;
+	margin-top: -300px;
+}
+
+#layer3 {
+	border-radius: 400px;
+	height: 800px;
+	width: 800px;
+	left: -400px;
+	margin-top: -400px;
+}
+
+.layer {	
+	position: absolute;
+	/*position: relative;*/
+	/*display: inline-block;*/
+	width: 200%;
+	height: 200%;
+	/*top: 50%;*/
+	margin-left: 50%;
+	border-style: solid;
+	border-color: white;
+	border-width: 5px;
+	-ms-transform: rotate(180deg); 
+    -webkit-transform: rotate(180deg); 
+    transform: rotate(180deg);
+    /*transition: 1s linear;*/
+}
+
+.startMenu {
+	top: 15%;
+}
