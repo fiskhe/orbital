@@ -1,5 +1,5 @@
 # Orbital
-A game. Available to play here: https://fiskhe.github.io/orbital/
+A game I initially made at a hackathon in 2015. Parts have been added on to make the game more playable. Available to play here: https://fiskhe.github.io/orbital/
 ## Looks a bit like this:
 ![gameplay](orbital_screenshot.png)
 # Instructions:
