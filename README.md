@@ -1,6 +1,7 @@
 # Orbital
 A game. Available to play here: https://fiskhe.github.io/orbital/
-
+## Looks a bit like this:
+![gameplay](orbital_screenshot.png)
 # Instructions:
 
 ## Objective
