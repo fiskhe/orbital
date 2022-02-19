@@ -59,7 +59,6 @@ var transition;
 var game;
 
 function start() {
-	alert('running');
 	rotationDeg = getSupportedProp(['transform', 'webkittransform', 'mstransform']);
 	transition = getSupportedProp(['transition', 'webkittransition', 'otransition', 'moztransition']);
 	game = new game();
